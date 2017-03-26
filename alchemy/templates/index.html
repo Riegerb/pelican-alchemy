@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "layout.html" %}
 
 {% block head %}
 {{ super() }}
@@ -9,12 +9,4 @@
 
 {% block title %}
 {{ SITENAME }} | {{ SITESUBTITLE }}
-{% endblock %}
-
-{% block page_header %}
-  reticulating splines....
-{% endblock %}
-
-{% block content %}
-  <a href="{{ SITEURL }}/pages/contact.html">Contact Brian</a>
 {% endblock %}
